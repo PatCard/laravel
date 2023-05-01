@@ -8,7 +8,7 @@
 <p>
 	<strong>{{ $post['id'] }}</strong>
 	<a href="{{ route('post', $post['slug']) }}">
-		{{ $post['title'] }}
+    {{ $post['title'] }}
 	</a>
 </p>
 @endforeach
